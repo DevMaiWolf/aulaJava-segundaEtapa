@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Nota {
+class Notas2 {
     private double nota1;
     private double nota2;
 
@@ -36,7 +36,7 @@ class Nota {
 
     public static void main(String[] args) {
         Scanner valorNota = new Scanner(System.in);
-        Nota nota = new Nota();
+        Faltas nota = new Faltas();
 
         System.out.print("Digite a nota 1: ");
         double nota1 = valorNota.nextDouble();
